@@ -32,11 +32,40 @@
   }
 }
 
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  margin: 0;
+  background: goldenrod;
+  border-bottom: 1px solid brown;
+}
+
+h1{
+  display: inline-block;
+  padding: 2%;
+}
+
 .dark-mode{
   color: #ffffff;
   background-color: #313843;
 }
 
-.dark-mode.header{
+.dark-mode .header{
   background-color: #1f2022;
+  border: none;
+}
+
+.player-container{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.player-card{
+  width: 33%;
 }

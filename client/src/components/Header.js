@@ -10,7 +10,7 @@ const Header = () => {
     }
 
     return (
-        <div>
+        <div className='header'>
             <h1>Women's World Cup Players</h1>
             <button onClick={toggleDark}>Toggle Dark Mode</button>
         </div>

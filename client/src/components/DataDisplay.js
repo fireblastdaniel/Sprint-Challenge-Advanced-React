@@ -15,10 +15,10 @@ const DataDisplay = () => {
     })
 
     return(
-        <div>
+        <div className='player-container'>
             {
                 players.map(player => (
-                    <div>
+                    <div className='player-card'>
                         <h2>{player.name}</h2>
                         <p>Country: {player.country}</p>
                         <p>Searches: {player.searches}</p>
