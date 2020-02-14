@@ -10,7 +10,7 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-test('renders all expected components', () => {
+test('renders header', () => {
   const { getByText } = render(<App />);
   const header = getByText(/Women's World Cup Players/i)
   expect(header).toBeInTheDocument();
