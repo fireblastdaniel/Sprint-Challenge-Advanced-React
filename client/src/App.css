@@ -40,6 +40,7 @@
   margin: 0;
   background: goldenrod;
   border-bottom: 1px solid brown;
+  padding-bottom: 1%;
 }
 
 h1{
@@ -69,4 +70,8 @@ h1{
 
 .player-card{
   width: 33.333%;
+}
+
+.hidden{
+  display: none;
 }
